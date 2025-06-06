@@ -23,6 +23,13 @@
 				<li class="nav-item">
 					<a class="nav-link active" href="/02">Cap 02</a>
 				</li>
+				<li class="nav-item">
+					<a class="nav-link active" href="/03/external/posts">Cap 03a</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link active" href="/03/pokemon">Cap 03b</a>
+				</li>
+				
 			</ul>
 		</div>
 	</div>
