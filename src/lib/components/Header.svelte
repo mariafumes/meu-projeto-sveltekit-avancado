@@ -25,6 +25,9 @@
 				<li class="nav-item">
 					<a class="nav-link active" href="/03/pokemon">Cap 03b</a>
 				</li>
+				<li class="nav-item">
+					<a class="nav-link active" href="/03/dummy/users">Dummy users</a>
+				</li>
 				
 			</ul>
 		</div>

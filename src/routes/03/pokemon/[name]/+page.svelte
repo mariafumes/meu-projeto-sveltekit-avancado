@@ -4,7 +4,7 @@
   
   <div class="container my-5">
     <div class="row g-4 justify-content-center">
-      <div class="col-md-10 col-lg-8">
+      <div class="col-md-7 col-lg-5">
         <div class="card shadow-lg border-0 rounded-4 overflow-hidden">
           <div class="row g-0">
             <div class="col-md-5 bg-light d-flex align-items-center justify-content-center p-3">
@@ -45,16 +45,13 @@
                 {#each data.pokemon.stats as stat}
                   <div class="list-group-item d-flex justify-content-between align-items-center">
                     <span class="text-capitalize">{stat.name}</span>
-                    <div class="progress flex-grow-1 mx-3" style="height: 8px;">
-                      <div class="progress-bar bg-info" role="progressbar" style={`width: ${stat.value}%`} aria-valuenow={stat.value} aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
                     <span class="badge bg-dark">{stat.value}</span>
                   </div>
                 {/each}
               </div>
   
               <a href="/03/pokemon" class="btn btn-success mt-3">
-                ← Voltar
+                Back
               </a>
             </div>
           </div>
